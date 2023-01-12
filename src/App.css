@@ -46,7 +46,8 @@ body {
   border: 1px solid gray;
   color: black;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: lighter;
+  font-size: large;
 }
 
 .btn:hover {
@@ -67,5 +68,4 @@ body {
   grid-column: 1 / span 2;
   place-content: unset;
   align-items: center;
-  padding-left: 2rem;
 }
