@@ -12,7 +12,7 @@ class Calculator extends React.Component {
   }
 
   keypress = (event) => {
-    const buttonPressed = event.target.innerHTML;
+    const buttonPressed = event.target.value;
     this.setState((prevState) => (calculate(prevState, buttonPressed)));
   }
 
