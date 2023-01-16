@@ -78,7 +78,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Click <a href="https://ahadb802.github.io//">Here</a>
+Click <a href="https://tourmaline-chebakia-a54d98.netlify.app/">Here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
