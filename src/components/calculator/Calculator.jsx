@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { PropTypes } from 'prop-types';
 import calculate from '../logic/calculate';
+import './Calculator.css';
 
 const Calculator = ({ total: newTotal, next: newNext, operation: newOP }) => {
   const [total, setTotal] = useState(newTotal);
@@ -20,7 +21,10 @@ const Calculator = ({ total: newTotal, next: newNext, operation: newOP }) => {
   };
 
   return (
-    <div className="container">
+    <div className="containers">
+      <div className="logo">
+        <h3>This is my Magic Calculator</h3>
+      </div>
       <div className="wrapper">
         <div className="screen">
           {total}
