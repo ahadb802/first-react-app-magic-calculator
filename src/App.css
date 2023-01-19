@@ -7,65 +7,7 @@
 }
 
 body {
-  background-color: black;
-  display: grid;
-  place-content: center;
+  background-color: white;
   font-family: "Roboto", sans-serif;
   height: 100vh;
-  font-size: 2rem;
-}
-
-.container {
-  height: 90vh;
-  width: 80vh;
-  background-color: gray;
-  padding: 1px;
-}
-
-.wrapper {
-  display: grid;
-  height: 100%;
-  width: 100%;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-}
-
-.screen {
-  grid-column: 1 / -1;
-  color: white;
-  text-align: right;
-  padding: 0.5rem;
-  font-size: 4rem;
-  overflow: hidden;
-}
-
-.btn {
-  display: grid;
-  place-content: center;
-  background-color: lightgray;
-  border: 1px solid gray;
-  color: black;
-  cursor: pointer;
-  font-weight: lighter;
-  font-size: large;
-}
-
-.btn:hover {
-  background-color: black;
-  color: white;
-}
-
-.orange {
-  background-color: orange;
-}
-
-.orange:hover {
-  background-color: white;
-  color: orange;
-}
-
-.zero {
-  grid-column: 1 / span 2;
-  place-content: unset;
-  align-items: center;
 }
