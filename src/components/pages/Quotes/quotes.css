@@ -1,0 +1,21 @@
+.quotes-container {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quotes {
+  width: 50%;
+}
+
+.quotes p {
+  text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+  .quotes {
+    width: 80%;
+  }
+}
